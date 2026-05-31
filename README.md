@@ -57,7 +57,7 @@ shopper-assistant-agent/
 | 2 | `02_agente_llama.ipynb` | **Prueba inicial** con LLaMA corriendo localmente (llama-cpp-python). Permite comparar el alcance y calidad de respuesta vs. la versión con OpenAI. |
 | 3 | `03_agente_openai.ipynb` | **Versión final del agente.** Incluye EDA, limpieza avanzada, arquitectura de 3 etapas (parseo → filtrado → generación) con GPT-4o mini, y 5 ejemplos de uso. |
 
-> 💡 Se decidió mantener el notebook con LLaMA (`02`) como referencia de comparación, para evidenciar las diferencias en capacidad de razonamiento nutricional y comprensión de lenguaje natural entre un modelo local y un modelo de frontier.
+> Se decidió mantener el notebook con LLaMA (`02`) como referencia de comparación, para evidenciar las diferencias en capacidad de razonamiento nutricional y comprensión de lenguaje natural entre un modelo local y un modelo de frontier.
 
 ---
 
