@@ -1,0 +1,28 @@
+# Datos 
+data/raw/
+data/processed/
+*.csv
+*.json
+!data/processed/*.json
+
+# API Keys
+.env
+secrets.py
+
+# Entornos virtuales
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Modelos descargados
+*.gguf
+*.bin
+models/
