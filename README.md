@@ -143,32 +143,3 @@ Elaborado por:
 Paola Andrea Gomez
 Dayanna pérez
 
----
-
-
-### Arquitectura
-
-```
-[START] → [parsear_intencion] → [filtrar_catalogo] → [generar_canasta] → [END]
-```
-
-| Nodo | Responsabilidad |
-|------|-----------------|
-| `parsear_intencion` | GPT extrae presupuesto, dieta y restricciones nutricionales del texto libre |
-| `filtrar_catalogo` | Filtra el DataFrame por precio, dieta y nutrición; muestrea productos diversos por subcategoría |
-| `generar_canasta` | GPT selecciona productos y genera la canasta con justificación nutricional y precio total |
-
-### Uso directo
-
-```python
-import pandas as pd
-from src.shopping_graph import build_graph, run_agent
-
-df    = pd.read_csv("data/processed/supermercado_nutricion_clean.csv")
-graph = build_graph(df)
-
-result = run_agent(graph, "Canasta vegana para 2 personas, máximo $80.000 COP")
-print(result["canasta"])
-```
-
-Ver el notebook `04_agente_langgraph.ipynb` para ejemplos completos.
