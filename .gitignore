@@ -1,6 +1,5 @@
 # Datos 
-data/raw/
-data/processed/
+
 *.csv
 *.json
 !data/processed/*.json
