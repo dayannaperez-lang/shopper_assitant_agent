@@ -19,3 +19,6 @@ langchain-core>=0.2.0
 
 # Utilidades
 python-dotenv>=1.0.0
+
+# Interfaz Gradio
+gradio>=3.0.0
