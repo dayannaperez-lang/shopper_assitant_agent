@@ -1,4 +1,4 @@
-# Shopper Assistant Agent — Retail ejemplo
+# Shopper Assistant Agent — Retail 
 
 Agente inteligente de compras que ayuda a los usuarios a armar canastas personalizadas de un supermercado de retail, basándose en lenguaje natural, restricciones presupuestarias, preferencias alimenticias e información nutricional.
 
